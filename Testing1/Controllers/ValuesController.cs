@@ -11,6 +11,9 @@ namespace Testing1.Controllers
     public class ValuesController : ControllerBase
     {
         // GET api/values
+        /// <summary>  
+        ///  Rota para recuperar os valores
+        /// </summary> 
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
